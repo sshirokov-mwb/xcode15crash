@@ -9,8 +9,7 @@ if #available(macOS 10.14, *) {
 
     print("NWPathMonitor...")
 
-    let nwPathMonitor = NWPathMonitor()
-    print("\(nwPathMonitor.currentPath)")
+    _ = NWPathMonitor()
 
     print("NWPathMonitor done.")
 }
