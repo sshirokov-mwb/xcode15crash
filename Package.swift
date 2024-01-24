@@ -6,6 +6,10 @@ import PackageDescription
 let package = Package(
 
     name: "xcode15crash",
+    platforms: [
+
+        .macOS(.v10_13),
+    ],
     targets: [
 
         .executableTarget(
